@@ -1,4 +1,5 @@
-package com.bobobode.cs;
+package main;
+
 
 /**
  * Class {@link Node} is a very simple data structure that consists of an element itself and the reference to the next
@@ -16,3 +17,4 @@ public class Node<T> {
         this.element = element;
     }
 }
+

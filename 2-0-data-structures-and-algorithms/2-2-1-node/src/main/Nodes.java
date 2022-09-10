@@ -1,5 +1,4 @@
-package com.bobobode.cs;
-
+package main;
 
 /**
  * A class that consists of static methods only and provides util methods for {@link Node}.
@@ -28,7 +27,7 @@ public class Nodes {
      * @param <T>    a genetic type
      */
     public static <T> void link(Node<T> first, Node<T> second) {
-       first.next = second;
+        first.next = second;
     }
 
     /**
